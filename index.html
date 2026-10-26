@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axelross | Data Analytics Portfolio</title>
+<style>
+:root {
+  --bg: #f7f8fa;
+  --card: #ffffff;
+  --text: #172033;
+  --muted: #667085;
+  --accent: #2563eb;
+  --line: #e5e7eb;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+header {
+  background: #101828;
+  color: white;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+header strong { font-size: 18px; }
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 14px;
+}
+main { max-width: 1050px; margin: auto; padding: 50px 22px; }
+.hero {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 42px;
+}
+.eyebrow {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+h1 { font-size: clamp(34px, 6vw, 54px); line-height: 1.12; margin: 12px 0; }
+h2 { font-size: 27px; margin-bottom: 8px; }
+p { color: var(--muted); }
+.hero p { max-width: 650px; font-size: 17px; }
+.button {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 9px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+section { margin-top: 45px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  padding: 23px;
+}
+.tag {
+  display: inline-block;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-radius: 6px;
+  padding: 4px 9px;
+  font-size: 12px;
+  margin: 3px 3px 3px 0;
+}
+.card a { color: var(--accent); font-weight: bold; }
+footer {
+  text-align: center;
+  padding: 25px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+@media(max-width:600px) {
+  header { padding: 18px 5%; }
+  nav a { margin-left: 8px; }
+  main { padding: 28px 15px; }
+  .hero { padding: 26px 22px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <strong>Axelross | Portfolio</strong>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="eyebrow">Data Analytics Portfolio</div>
+    <h1>Turning Data Into<br>Better Decisions.</h1>
+    <p>
+      I am a Business Administration graduate specializing in
+      Financial Management, building practical skills in data
+      analytics, business intelligence, and reporting automation.
+      I transform data into insights that support better decisions.
+    </p>
+    <a class="button" href="#projects">Explore My Projects ↓</a>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      My background in financial management and business
+      administration shapes my approach to analytics: understand
+      the problem, examine the data, identify meaningful patterns,
+      and recommend practical actions.
+    </p>
+    <p>
+      This portfolio showcases projects completed during my
+      analytics training and my continued development in business
+      intelligence and data-driven decision-making.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <p>Selected analytics work and case studies.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">Business Analytics</span>
+        <h3>Job Market Analytics Dashboard</h3>
+        <p>
+          An analysis of job market data using descriptive,
+          diagnostic, predictive, or prescriptive methods where
+          supported by the available dataset.
+        </p>
+        <p><strong>Focus:</strong> Trends, findings, and recommendations.</p>
+        <a href="https://github.com/">Project files coming soon</a>
+      </article>
+
+      <article class="card">
+        <span class="tag">Financial Analytics</span>
+        <h3>Financial Performance Dashboard</h3>
+        <p>
+          A project exploring financial data, performance metrics,
+          and opportunities to improve financial decision-making.
+        </p>
+        <p><strong>Focus:</strong> Financial insights and reporting.</p>
+        <a href="https://github.com/">Project files coming soon</a>
+      </article>
+
+      <article class="card">
+        <span class="tag">Automation</span>
+        <h3>Analytics Automation</h3>
+        <p>
+          A developing project focused on making data preparation
+          and business reporting more efficient.
+        </p>
+        <p><strong>Focus:</strong> Repeatable reporting workflows.</p>
+        <a href="https://github.com/">Project files coming soon</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Tools & Skills</h2>
+    <p>
+      <span class="tag">Excel</span>
+      <span class="tag">Power BI</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">Business Analysis</span>
+      <span class="tag">Financial Analysis</span>
+      <span class="tag">Data Cleaning</span>
+    </p>
+    <p>
+      My proficiency varies by tool, and I am continuing to develop
+      my technical skills through hands-on projects.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>
+      Open to entry-level data analytics opportunities,
+      collaborative projects, and business intelligence work.
+    </p>
+    <p>
+      Add your professional email and LinkedIn profile here
+      before publishing your portfolio.
+    </p>
+  </section>
+</main>
+
+<footer>
+  © 2026 Axelross · Data Analytics Portfolio
+</footer>
+</body>
+</html>
